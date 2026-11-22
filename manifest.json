@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "LoaderBuddy",
+  "version": "2.1",
+  "description": "Keeps screen awake during downloads with manual controls and notifications.",
+  "permissions": [
+    "downloads",
+    "power",
+    "storage",
+    "notifications"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "16": "icon.svg",
+    "48": "icon.svg",
+    "128": "icon.svg"
+  }
+}
